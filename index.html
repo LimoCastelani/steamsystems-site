@@ -1,267 +1,161 @@
-<!DOCTYPE html><html lang="en" style=""><head>
+<!doctype html>
+<html lang="en">
+<head>
 <meta charset="utf-8">
-<meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>STEAM SYSTEMS - Brand Identity</title>
-<meta name="description" content="Official templates and guidelines for STEAM SYSTEMS stationery and digital communications.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>STEAM SYSTEMS — Architects of the Future</title>
+<meta name="description" content="STEAM SYSTEMS is a multi-sector group working across IT &amp; AI, mining, energy and fintech.">
+<meta property="og:title" content="STEAM SYSTEMS — Architects of the Future">
+<meta property="og:description" content="STEAM SYSTEMS is a multi-sector group working across IT &amp; AI, mining, energy and fintech.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#fbf9f8">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400&amp;family=JetBrains+Mono:wght@500&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet">
-<script id="tailwind-config">
-  tailwind.config = {
-    darkMode: "class",
-    theme: {
-      extend: {
-        "colors": {
-                "surface-container-low": "#f5f3f3",
-                "inverse-primary": "#abd600",
-                "on-primary": "#ffffff",
-                "surface-tint": "#506600",
-                "on-error": "#ffffff",
-                "surface-container": "#efeded",
-                "tertiary-fixed-dim": "#c6c6c7",
-                "primary-fixed-dim": "#abd600",
-                "on-tertiary-fixed-variant": "#454747",
-                "primary-container": "#ccff00",
-                "secondary-fixed": "#e2e2e2",
-                "on-secondary-fixed-variant": "#474747",
-                "primary-fixed": "#c3f400",
-                "tertiary-container": "#ededed",
-                "surface-container-highest": "#e4e2e2",
-                "tertiary-fixed": "#e2e2e2",
-                "tertiary": "#5d5f5f",
-                "surface-container-lowest": "#ffffff",
-                "on-background": "#1b1c1c",
-                "inverse-on-surface": "#f2f0f0",
-                "on-tertiary": "#ffffff",
-                "error-container": "#ffdad6",
-                "background": "#fbf9f8",
-                "surface-container-high": "#e9e8e7",
-                "on-tertiary-fixed": "#1a1c1c",
-                "surface": "#fbf9f8",
-                "on-secondary-container": "#646464",
-                "surface-variant": "#e4e2e2",
-                "on-secondary": "#ffffff",
-                "secondary": "#5e5e5e",
-                "inverse-surface": "#303031",
-                "on-surface-variant": "#444933",
-                "on-tertiary-container": "#6a6b6b",
-                "outline": "#747a60",
-                "on-error-container": "#93000a",
-                "surface-dim": "#dbdad9",
-                "on-primary-fixed": "#161e00",
-                "error": "#ba1a1a",
-                "outline-variant": "#c4c9ac",
-                "on-primary-fixed-variant": "#3c4d00",
-                "on-secondary-fixed": "#1b1b1b",
-                "on-surface": "#1b1c1c",
-                "secondary-container": "#e2e2e2",
-                "on-primary-container": "#5b7300",
-                "secondary-fixed-dim": "#c6c6c6",
-                "surface-bright": "#fbf9f8",
-                "primary": "#506600"
-        },
-        "borderRadius": {
-                "DEFAULT": "0.125rem",
-                "lg": "0.25rem",
-                "xl": "0.5rem",
-                "full": "0.75rem"
-        },
-        "spacing": {
-                "xl": "80px",
-                "base": "8px",
-                "gutter": "24px",
-                "xs": "4px",
-                "margin-mobile": "16px",
-                "lg": "48px",
-                "md": "24px",
-                "margin-desktop": "40px",
-                "sm": "12px",
-                "container-max": "1440px"
-        },
-        "fontFamily": {
-                "code-snippet": [
-                        "JetBrains Mono"
-                ],
-                "body-md": [
-                        "Geist"
-                ],
-                "body-lg": [
-                        "Geist"
-                ],
-                "display-lg-mobile": [
-                        "Space Grotesk"
-                ],
-                "display-lg": [
-                        "Space Grotesk"
-                ],
-                "label-sm": [
-                        "JetBrains Mono"
-                ],
-                "headline-md": [
-                        "Space Grotesk"
-                ],
-                "headline-lg-mobile": ["Space Grotesk"],
-                "headline-lg": ["Space Grotesk"],
-                "label-caps": ["JetBrains Mono"]
-        },
-        "fontSize": {
-                "code-snippet": [
-                        "14px",
-                        {
-                                "lineHeight": "1.5",
-                                "fontWeight": "400"
-                        }
-                ],
-                "body-md": [
-                        "16px",
-                        {
-                                "lineHeight": "1.5",
-                                "letterSpacing": "0",
-                                "fontWeight": "400"
-                        }
-                ],
-                "body-lg": [
-                        "18px",
-                        {
-                                "lineHeight": "1.6",
-                                "letterSpacing": "0",
-                                "fontWeight": "400"
-                        }
-                ],
-                "display-lg-mobile": [
-                        "32px",
-                        {
-                                "lineHeight": "1.2",
-                                "letterSpacing": "-0.02em",
-                                "fontWeight": "700"
-                        }
-                ],
-                "display-lg": [
-                        "72px",
-                        {
-                                "lineHeight": "1.1",
-                                "letterSpacing": "-0.04em",
-                                "fontWeight": "700"
-                        }
-                ],
-                "label-sm": [
-                        "12px",
-                        {
-                                "lineHeight": "1.4",
-                                "letterSpacing": "0.05em",
-                                "fontWeight": "500"
-                        }
-                ],
-                "headline-md": [
-                        "24px",
-                        {
-                                "lineHeight": "1.3",
-                                "letterSpacing": "-0.01em",
-                                "fontWeight": "600"
-                        }
-                ],
-                "headline-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
-                "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "600" }],
-                "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.15em", "fontWeight": "500" }]
-        }
-},
-    },
-  }
-</script>
-<style>
-        .glass-panel {
-            background: rgba(255, 255, 255, 0.7);
-            backdrop-filter: blur(24px);
-            -webkit-backdrop-filter: blur(24px);
-            border: 1px solid rgba(0, 0, 0, 0.05);
-        }
-        
-        .glow-accent {
-            box-shadow: 0 0 15px 2px rgba(204, 255, 0, 0.3);
-        }
-        
-        .tech-grid-bg {
-            background-image: 
-                linear-gradient(rgba(204, 255, 0, 0.2) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(204, 255, 0, 0.2) 1px, transparent 1px);
-            background-size: 20px 20px;
-        }
-
-        .business-card-ratio {
-            aspect-ratio: 3.5 / 2;
-        }
-        .lang-btn[aria-pressed="true"] { background: #ccff00; color: #161e00; }
-        :lang(zh) .font-label-caps { letter-spacing: 0.05em; }
-        @media (max-width: 767px) { .business-card-ratio { aspect-ratio: auto; min-height: 230px; } #signature img { max-width: none; } }
-    </style>
+<link rel="preload" href="assets/fonts/SpaceGrotesk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/Geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="bg-background text-on-background min-h-screen font-body-md text-body-md overflow-x-hidden antialiased">
-<!-- Top Navigation -->
-<header class="fixed top-0 w-full z-50 flex justify-between items-center gap-4 px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto bg-surface/80 backdrop-blur-xl border-b border-outline-variant/30">
-<div class="font-headline-lg-mobile md:font-headline-lg text-[26px] md:text-headline-lg font-bold tracking-tighter text-primary">STEAM SYSTEMS</div>
-<nav class="hidden lg:flex gap-8">
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#" data-i18n="nav.it">IT &amp; AI</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#" data-i18n="nav.mining">Mining</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#" data-i18n="nav.energy">Energy</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-300" href="#" data-i18n="nav.fintech">FinTech</a>
-</nav>
-<div class="flex items-center gap-3">
-<div class="flex border border-outline-variant/60 rounded-DEFAULT overflow-hidden" role="group" aria-label="Language">
-<button type="button" class="lang-btn font-label-caps text-label-caps px-2.5 py-2 text-on-surface-variant hover:text-primary transition-colors" data-lang="en" aria-pressed="true">EN</button>
-<button type="button" class="lang-btn font-label-caps text-label-caps px-2.5 py-2 text-on-surface-variant hover:text-primary transition-colors border-l border-outline-variant/60" data-lang="fr" aria-pressed="false">FR</button>
-<button type="button" class="lang-btn font-label-caps text-label-caps px-2.5 py-2 text-on-surface-variant hover:text-primary transition-colors border-l border-outline-variant/60" data-lang="zh" aria-pressed="false" lang="zh-Hans">中文</button>
-</div>
-<a class="hidden sm:inline-block font-label-caps text-label-caps text-on-primary-fixed bg-primary-container px-6 py-2 rounded-DEFAULT hover:bg-primary-fixed-dim transition-colors" href="mailto:contact@steamsystems.io" data-i18n="nav.contact">Contact</a>
-</div>
+<body>
+<a class="skip" href="#main" data-i18n="a11y.skip">Skip to content</a>
+
+<header class="topbar" id="top">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#top" aria-label="STEAM SYSTEMS"><img src="assets/img/logo.svg" alt="STEAM SYSTEMS" width="110" height="48"></a>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#sectors" data-i18n="nav.sectors">Sectors</a>
+      <a href="#approach" data-i18n="nav.approach">Approach</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="topbar-actions">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+        <button type="button" data-lang="zh" aria-pressed="false" lang="zh-Hans">中文</button>
+      </div>
+      <a class="btn btn-primary btn-sm hide-mobile" href="#contact" data-i18n="nav.cta">Contact us</a>
+      <button type="button" class="menu-btn" aria-controls="nav" aria-expanded="false">
+        <span class="sr-only" data-i18n="a11y.menu">Menu</span><span class="bars" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
 </header>
-<main class="pt-32 pb-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto flex flex-col gap-24">
-<!-- Header -->
-<section class="text-center md:text-left space-y-4">
-<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-primary" data-i18n="hero.title">Brand Identity</h1>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl" data-i18n="hero.lead">Official templates and guidelines for STEAM SYSTEMS stationery and digital communications. Designed for precision and technological dominance.</p>
-</section>
-<!-- Business Cards Section -->
-<section class="space-y-8">
-<div class="flex items-center gap-4 border-b border-outline-variant pb-4">
-<span class="material-symbols-outlined text-primary-container bg-primary rounded-full p-1">badge</span>
-<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface" data-i18n="cards.title">Business Cards</h2>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
-<!-- Front -->
-<div class="rounded-xl p-8 flex flex-col justify-center items-center business-card-ratio relative overflow-hidden group hover:glow-accent transition-shadow duration-500 bg-surface-container-lowest"><div class="absolute inset-0 tech-grid-bg opacity-20 z-0"></div><div class="z-10 flex flex-col items-center gap-4"><img alt="Steam Systems Logo" class="w-64 h-48 object-contain transition-all duration-500" src="assets/img/stitch-logo.png"><div class="font-label-caps text-label-caps text-on-primary-fixed bg-on-primary-fixed/10 px-4 py-1 rounded-full tracking-[0.3em] border border-on-primary-fixed/20" data-i18n="tagline">ARCHITECTS OF THE FUTURE</div></div></div>
-<!-- Back -->
-<div class="glass-panel rounded-xl p-8 flex flex-col justify-between business-card-ratio relative overflow-hidden group hover:glow-accent transition-shadow duration-500 bg-surface-container-lowest"><div class="absolute inset-0 tech-grid-bg opacity-20 z-0"></div><div class="absolute -right-10 -top-10 w-48 h-48 bg-primary/10 blur-[60px] rounded-full"></div><div class="z-10 flex justify-between items-start gap-4"><div><h3 class="font-display-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Steam Systems</h3><p class="font-label-caps text-label-caps text-on-primary-fixed mt-2 bg-primary-container px-3 py-1 inline-block rounded-full" data-i18n="card.sectors">IT &amp; AI · Mining · Energy · FinTech</p></div><img alt="Steam Systems Small Logo" class="w-24 h-24 md:w-32 md:h-32 object-contain transition-all duration-500" src="assets/img/stitch-logo.png"></div><div class="z-10 space-y-3 mt-auto border-l-2 border-primary pl-4"><div class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-primary">mail</span><a class="font-body-md text-body-md text-on-surface" href="mailto:contact@steamsystems.io">contact@steamsystems.io</a></div><div class="flex items-center gap-3"><span class="material-symbols-outlined text-[18px] text-primary">language</span><a class="font-body-md text-body-md text-on-surface" href="https://steamsystems.io">steamsystems.io</a></div></div></div>
-</div>
-</section>
-<!-- Email Signature Section -->
-<section class="space-y-8">
-<div class="flex items-center gap-4 border-b border-outline-variant pb-4">
-<span class="material-symbols-outlined text-primary-container bg-primary rounded-full p-1">signature</span>
-<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface" data-i18n="sig.title">Email Signature</h2>
-</div>
-<div class="glass-panel rounded-xl p-6 md:p-12 bg-surface-container-low border border-outline-variant/30">
-<!-- HTML Signature Preview -->
-<div class="max-w-2xl bg-surface-container-lowest p-6 md:p-8 border border-outline-variant/30 shadow-sm relative overflow-hidden overflow-x-auto"><div class="absolute inset-0 tech-grid-bg opacity-5 pointer-events-none"></div><table id="signature" border="0" cellpadding="0" cellspacing="0" style="font-family: 'Geist', sans-serif; color: #1b1c1c; position: relative; z-index: 1;"><tbody><tr><td style="padding-right: 24px; border-right: 2px solid rgb(204, 255, 0); vertical-align: top;"><img alt="Steam Systems" height="120" src="assets/img/stitch-logo.png" style="display: block; width: 120px; height: 120px;" width="120"></td><td style="padding-left: 24px; vertical-align: top;"><div style="font-family: &quot;Space Grotesk&quot;, sans-serif; font-size: 22px; font-weight: 700; color: rgb(27, 28, 28); line-height: 1.1; letter-spacing: -0.02em;">Steam Systems</div><div style="font-family: &quot;JetBrains Mono&quot;, monospace; font-size: 11px; font-weight: 500; color: rgb(22, 30, 0); background-color: rgb(204, 255, 0); padding: 2px 8px; display: inline-block; border-radius: 99px; text-transform: uppercase; letter-spacing: 0.1em; margin-top: 6px; margin-bottom: 12px;" data-i18n="sig.role">Contact</div><div style="font-family: &quot;Space Grotesk&quot;, sans-serif; font-size: 14px; font-weight: 700; color: rgb(80, 102, 0); letter-spacing: 0.05em; margin-bottom: 8px;" data-i18n="tagline">ARCHITECTS OF THE FUTURE</div><table border="0" cellpadding="0" cellspacing="0" style="font-size: 14px; line-height: 1.6; color: #444933;"><tbody><tr><td style="padding-right: 24px; border-right: 2px solid rgb(204, 255, 0); vertical-align: top;">E</td><td style="padding-left: 8px;"><a href="mailto:contact@steamsystems.io" style="color: rgb(27, 28, 28); text-decoration: none; font-weight: 500; border-bottom: 1px solid rgb(204, 255, 0);">contact@steamsystems.io</a></td></tr><tr><td style="padding-right: 24px; border-right: 2px solid rgb(204, 255, 0); vertical-align: top;">W</td><td style="padding-left: 8px;"><a href="https://steamsystems.io" style="color: rgb(27, 28, 28); text-decoration: none; font-weight: 500; border-bottom: 1px solid rgb(204, 255, 0);">steamsystems.io</a></td></tr></tbody></table></td></tr><tr><td colspan="2" style="padding-top: 20px;"><div style="font-size: 10px; color: rgb(93, 95, 95); line-height: 1.5; border-top: 1px solid rgb(239, 237, 237); padding-top: 12px; font-style: italic;" data-i18n="sig.disclaimer">This email and any attachments are confidential and intended solely for the use of the individual or entity to whom they are addressed.</div></td></tr></tbody></table></div>
-<div class="mt-6 flex justify-end items-center gap-4">
-<span id="copied" class="font-label-caps text-label-caps text-primary" role="status" aria-live="polite"></span>
-<button type="button" id="copy-html" class="font-label-caps text-label-caps px-4 py-2 border border-primary text-primary bg-primary-container/10 rounded-DEFAULT hover:bg-primary-container hover:text-on-primary-fixed transition-colors flex items-center gap-2">
-<span class="material-symbols-outlined text-[16px]">code</span>
-<span data-i18n="sig.copy">Copy HTML</span>
-</button>
-</div>
-</div>
-</section>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="chip"><span class="dot" aria-hidden="true"></span><span data-i18n="hero.chip">Multi-sector technology group</span></p>
+      <h1 data-i18n="hero.title">Architects of the Future</h1>
+      <p class="lead" data-i18n="hero.lead">STEAM SYSTEMS brings engineering precision to four sectors that shape tomorrow: information technology and AI, mining, energy and financial technology.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#sectors" data-i18n="hero.cta1">Explore our sectors</a>
+        <a class="btn btn-outline" href="#contact" data-i18n="hero.cta2">Contact us</a>
+      </div>
+    </div>
+
+    <div class="panel" aria-hidden="true">
+      <div class="panel-head">
+        <span class="mono">SYS // <span data-i18n="panel.title">Sector map</span></span>
+        <span class="status"><span class="dot pulse"></span><span data-i18n="panel.status">Operational</span></span>
+      </div>
+      <div class="panel-logo"><img src="assets/img/logo.svg" alt="" width="300" height="131"></div>
+      <ul class="panel-list">
+        <li><span class="mono idx">01</span><span data-i18n="it.title">IT &amp; AI</span><span class="led"></span></li>
+        <li><span class="mono idx">02</span><span data-i18n="mining.title">Mining</span><span class="led"></span></li>
+        <li><span class="mono idx">03</span><span data-i18n="energy.title">Energy</span><span class="led"></span></li>
+        <li><span class="mono idx">04</span><span data-i18n="fintech.title">FinTech</span><span class="led"></span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SECTORS -->
+  <section class="section wrap" id="sectors">
+    <div class="section-head">
+      <span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></svg></span>
+      <h2 data-i18n="sectors.title">Our sectors</h2>
+    </div>
+    <p class="section-lead" data-i18n="sectors.lead">Four areas of activity, one standard of execution.</p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-top"><span class="mono idx">01</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M10 10h4v4h-4zM9 3v4M15 3v4M9 17v4M15 17v4M3 9h4M3 15h4M17 9h4M17 15h4"/></svg>
+        </div>
+        <h3 data-i18n="it.title">IT &amp; AI</h3>
+        <p data-i18n="it.desc">Software, infrastructure and applied artificial intelligence that help organisations work faster and decide better.</p>
+        <ul class="tags"><li data-i18n="it.t1">Software</li><li data-i18n="it.t2">Cloud &amp; infrastructure</li><li data-i18n="it.t3">Applied AI</li></ul>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><span class="mono idx">02</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 20 9 9l3.5 6 2.5-4 6.5 9z"/><path d="M14 5.5 18.5 3M16.2 4.2l2.3 4.3"/></svg>
+        </div>
+        <h3 data-i18n="mining.title">Mining</h3>
+        <p data-i18n="mining.desc">Technical services and digital tools for exploration, operations and the monitoring of mining sites.</p>
+        <ul class="tags"><li data-i18n="mining.t1">Exploration support</li><li data-i18n="mining.t2">Site operations</li><li data-i18n="mining.t3">Monitoring</li></ul>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><span class="mono idx">03</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg>
+        </div>
+        <h3 data-i18n="energy.title">Energy</h3>
+        <p data-i18n="energy.desc">Energy projects and solutions, from conventional power to renewables, designed for reliability.</p>
+        <ul class="tags"><li data-i18n="energy.t1">Power solutions</li><li data-i18n="energy.t2">Renewables</li><li data-i18n="energy.t3">Efficiency</li></ul>
+      </article>
+
+      <article class="card">
+        <div class="card-top"><span class="mono idx">04</span>
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2"/><path d="M2.5 9.5h19M6 15h4"/><path d="m14 15.5 2-2 1.5 1.5 2.5-2.5"/></svg>
+        </div>
+        <h3 data-i18n="fintech.title">FinTech</h3>
+        <p data-i18n="fintech.desc">Digital financial services and payment solutions built for security and accessibility.</p>
+        <ul class="tags"><li data-i18n="fintech.t1">Payments</li><li data-i18n="fintech.t2">Digital banking</li><li data-i18n="fintech.t3">Compliance</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- APPROACH -->
+  <section class="section wrap" id="approach">
+    <div class="section-head">
+      <span class="badge" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4"/><path d="M12 1.5v4M12 18.5v4M1.5 12h4M18.5 12h4"/></svg></span>
+      <h2 data-i18n="approach.title">Our approach</h2>
+    </div>
+    <p class="statement" data-i18n="approach.lead">We work like a laboratory: measure precisely, build carefully, improve continuously.</p>
+    <div class="principles">
+      <div class="principle"><span class="mono idx">/01</span><h3 data-i18n="p1.title">Precision</h3><p data-i18n="p1.desc">Every project starts with a clear diagnosis and measurable objectives.</p></div>
+      <div class="principle"><span class="mono idx">/02</span><h3 data-i18n="p2.title">Integration</h3><p data-i18n="p2.desc">Our sectors reinforce each other: technology, resources, energy and finance, under one roof.</p></div>
+      <div class="principle"><span class="mono idx">/03</span><h3 data-i18n="p3.title">Partnership</h3><p data-i18n="p3.desc">We build long-term relationships and stay accountable from design to delivery.</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section wrap" id="contact">
+    <div class="contact">
+      <div>
+        <p class="chip"><span class="dot" aria-hidden="true"></span><span data-i18n="contact.label">Contact</span></p>
+        <h2 class="contact-title" data-i18n="contact.title">Let's build what's next.</h2>
+        <p class="lead" data-i18n="contact.lead">Tell us about your project and our team will get back to you.</p>
+      </div>
+      <div class="contact-box">
+        <span class="mono label" data-i18n="contact.email">Email</span>
+        <a class="email" href="mailto:contact@steamsystems.io" id="email">contact@steamsystems.io</a>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="mailto:contact@steamsystems.io" data-i18n="contact.send">Send an email</a>
+          <button type="button" class="btn btn-outline" id="copy" data-i18n="contact.copy">Copy address</button>
+        </div>
+        <p class="copied mono" id="copied" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
 </main>
-<!-- Footer -->
-<footer class="w-full px-margin-mobile md:px-margin-desktop py-base flex flex-col md:flex-row justify-between items-center gap-gutter bg-surface-container border-t border-outline-variant/50 mt-12">
-<div class="font-label-caps text-label-caps font-bold text-on-surface">© <span id="year">2026</span> <span data-i18n="footer.rights">STEAM SYSTEMS. ARCHITECTS OF THE FUTURE.</span></div>
-<nav class="flex flex-wrap justify-center gap-6">
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all" href="#" data-i18n="footer.privacy">Privacy Policy</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all" href="#" data-i18n="footer.terms">Terms of Service</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all" href="#" data-i18n="footer.compliance">Compliance</a>
-<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-all" href="#" data-i18n="footer.security">Security</a>
-</nav>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span class="mono">© <span id="year">2026</span> <span data-i18n="footer.rights">STEAM SYSTEMS. Architects of the Future.</span></span>
+    <a class="mono" href="#top" data-i18n="footer.top">Back to top ↑</a>
+  </div>
 </footer>
+
 <script src="assets/js/main.js"></script>
-</body></html>
+</body>
+</html>
